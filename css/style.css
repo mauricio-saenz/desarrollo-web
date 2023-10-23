@@ -1,0 +1,68 @@
+header {
+	background-color: #F2F2F2;
+}
+
+nav{
+	float: right;
+	display: inline;
+	margin: 20px;
+}
+
+nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+nav ul li{
+	float: left;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color:#000000;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #F2F2F2;
+}
+
+.logo-company{
+	max-width: 100px;
+	height: auto;
+	margin: 10px;
+	display: inline;
+}
+
+.home-categories{
+	list-style-type: none;
+	margin: 100px;
+}
+
+.news-card{
+	background-color: #F2F2F2;
+	max-width: 400px;
+	margin: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.brand-logo{
+	width: 200px;
+	margin: 20px;
+}
+
+.news-card p{
+	padding: 40px;
+}
