@@ -1,5 +1,8 @@
+$color-gray: #F2F2F2;
+$color-black:  #000000;
+
 header {
-	background-color: #F2F2F2;
+	background-color: $color-gray;
 }
 
 nav{
@@ -13,7 +16,7 @@ nav ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #F2F2F2;
+    background-color: $color-gray;
 }
 
 nav ul li{
@@ -23,7 +26,7 @@ nav ul li{
 
 nav ul li a{
 	text-decoration: none;
-	color:#000000;
+	color:$color-black;
 }
 
 body {
@@ -35,7 +38,7 @@ body {
 footer {
 	padding: 20px;
 	text-align: center;
-	background-color: #F2F2F2;
+	background-color: $color-gray;
 }
 
 .logo-company{
@@ -51,7 +54,7 @@ footer {
 }
 
 .news-card{
-	background-color: #F2F2F2;
+	background-color: $color-gray;
 	max-width: 400px;
 	margin: 20px;
 	display: inline-block;
