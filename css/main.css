@@ -1,3 +1,32 @@
+.button-basic, .button-submit {
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-submit {
+  background-color: lightgray;
+  color: #000000;
+}
+
+.news-card {
+  background-color: #F2F2F2;
+  max-width: 400px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.news-card p {
+  padding: 40px;
+}
+
+.brand-logo {
+  width: 150px;
+  margin: 20px;
+}
+
 header {
   background-color: #F2F2F2;
 }
@@ -7,7 +36,6 @@ nav {
   display: inline;
   margin: 20px;
 }
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -15,12 +43,10 @@ nav ul {
   overflow: hidden;
   background-color: #F2F2F2;
 }
-
 nav ul li {
   float: left;
   padding: 10px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #000000;
@@ -48,23 +74,6 @@ footer {
 .home-categories {
   list-style-type: none;
   margin: 100px;
-}
-
-.news-card {
-  background-color: #F2F2F2;
-  max-width: 400px;
-  margin: 20px;
-  display: inline-block;
-  text-align: center;
-}
-
-.brand-logo {
-  width: 200px;
-  margin: 20px;
-}
-
-.news-card p {
-  padding: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

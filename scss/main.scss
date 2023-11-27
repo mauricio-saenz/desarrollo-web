@@ -1,5 +1,7 @@
-$color-gray: #F2F2F2;
-$color-black:  #000000;
+@import "colors";
+@import "contact";
+@import "news";
+@import "brands";
 
 header {
 	background-color: $color-gray;
@@ -9,24 +11,21 @@ nav{
 	float: right;
 	display: inline;
 	margin: 20px;
-}
-
-nav ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: $color-gray;
-}
-
-nav ul li{
-	float: left;
-	padding: 10px;
-}
-
-nav ul li a{
-	text-decoration: none;
-	color:$color-black;
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: $color-gray;
+		li{
+			float: left;
+			padding: 10px;
+			a{
+				text-decoration: none;
+				color:$color-black;
+			}
+		}
+	}
 }
 
 body {
@@ -51,21 +50,4 @@ footer {
 .home-categories{
 	list-style-type: none;
 	margin: 100px;
-}
-
-.news-card{
-	background-color: $color-gray;
-	max-width: 400px;
-	margin: 20px;
-	display: inline-block;
-	text-align: center;
-}
-
-.brand-logo{
-	width: 200px;
-	margin: 20px;
-}
-
-.news-card p{
-	padding: 40px;
 }

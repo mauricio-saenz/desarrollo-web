@@ -1,0 +1,13 @@
+.button-basic {
+	border: none;
+	padding: 15px 20px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .button-submit {
+	@extend .button-basic;
+	background-color:$color-light-gray;
+	color: $color-black;
+  }
